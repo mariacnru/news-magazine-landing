@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function MobileNavbr() {
-  return (
-    <div>MobileNavbr</div>
-  )
+  return <div className="md:hidden">MobileNavbr</div>;
 }
 
-export default MobileNavbr
+export default MobileNavbr;
