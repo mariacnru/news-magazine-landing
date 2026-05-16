@@ -4,9 +4,11 @@ import Input from "./components/Input";
 
 function DescktopNavbar() {
   return (
-    <div className="hidden lg:flex w-full h-15 justify-between items-center">
-      <Input />
-      <List />
+    <div className="hidden lg:flex mt-7 mx-25">
+      <div className="mx-auto flex w-full h-15 justify-between items-center">
+        <Input />
+        <List />
+      </div>
     </div>
   );
 }

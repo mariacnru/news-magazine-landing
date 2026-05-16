@@ -4,10 +4,10 @@ import Navbar from "../Navbar/Navbar";
 
 function Layuot() {
   return (
-    <div className="mx-4 md:mx-8 lg:mx-25 mt-7">
+    <div>
       <section>
         <Navbar />
-        <main>
+        <main className="mx-4 md:mx-8 lg:mx-25">
           <Outlet />
         </main>
       </section>

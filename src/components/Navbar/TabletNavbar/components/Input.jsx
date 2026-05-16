@@ -6,7 +6,7 @@ function Input() {
   const [value, setValue] = useState("");
 
   return (
-    <label className="w-2xs p-1 text-xs flex justify-between items-center bg-gray-100 px-2 rounded-lg">
+    <label className="w-full mt-2 p-1 text-xs flex justify-between items-center bg-gray-100 px-2 rounded-lg">
       <div className="flex items-center gap-2">
         <span className="text-gray-500">
           <FaEllipsisV />
