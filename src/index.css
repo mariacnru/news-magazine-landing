@@ -37,13 +37,6 @@
   --color-logo-color: #fc4308;
 }
 
-html,
-* {
-  margine: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   @apply font-Dana;
 }
