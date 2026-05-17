@@ -38,5 +38,5 @@
 }
 
 body {
-  @apply font-Dana bg-stone-100 lg:bg-white;
+  @apply font-Dana bg-white md:bg-stone-100 lg:bg-white;
 }

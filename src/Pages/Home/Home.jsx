@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Categories from "./components/Categories/Categories";
 
-function Index() {
+function Home() {
   return (
-    <div>Index</div>
-  )
+    <div>
+      <Categories />
+    </div>
+  );
 }
 
-export default Index
+export default Home;
