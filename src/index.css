@@ -38,5 +38,17 @@
 }
 
 body {
-  @apply font-Dana bg-white md:bg-stone-100 lg:bg-white;
+  @apply font-Dana bg-white md:bg-stone-100 lg:bg-stone-100;
+}
+
+.categories::-webkit-scrollbar {
+  height: 0;
+}
+
+.popularPosts::-webkit-scrollbar {
+  height: 0;
+}
+
+.popularPostsCard {
+  width: 360px !important;
 }
