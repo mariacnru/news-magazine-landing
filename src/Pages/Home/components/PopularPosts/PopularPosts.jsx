@@ -10,7 +10,7 @@ function PopularPosts() {
       summary:
         "با افزایش تنش‌ها در بازار جهانی انرژی، قیمت نفت به بالاترین سطح خود در شش ماه اخیر رسید.",
       category: "اقتصاد",
-      authorImg: "/public/Images/Authors/2.svg",
+      authorImg: "/Images/Authors/2.svg",
 
       author: "رضا محمدی",
       views: 9850,
@@ -24,7 +24,7 @@ function PopularPosts() {
       summary:
         "کارشناسان معتقدند پیشرفت سریع هوش مصنوعی می‌تواند ساختار بسیاری از مشاغل را در سال‌های آینده دگرگون کند.",
       category: "تکنولوژی",
-      authorImg: "/public/Images/Authors/1.svg",
+      authorImg: "/Images/Authors/1.svg",
       author: "مریم احمدی",
       views: 18730,
       comments: 142,
@@ -37,7 +37,7 @@ function PopularPosts() {
       summary:
         "با افزایش تنش‌ها در بازار جهانی انرژی، قیمت نفت به بالاترین سطح خود در شش ماه اخیر رسید.",
       category: "اقتصاد",
-      authorImg: "/public/Images/Authors/2.svg",
+      authorImg: "/Images/Authors/2.svg",
 
       author: "رضا محمدی",
       views: 9850,
@@ -51,7 +51,7 @@ function PopularPosts() {
       summary:
         "در این گزارش نگاهی داریم به قدرتمندترین و محبوب‌ترین گوشی‌های هوشمند معرفی‌شده در سال جاری.",
       category: "دیجیتال",
-      authorImg: "/public/Images/Authors/3.svg",
+      authorImg: "/Images/Authors/3.svg",
 
       author: "سارا کریمی",
       views: 21340,
@@ -65,7 +65,7 @@ function PopularPosts() {
       summary:
         "ربات‌های جراحی با دقت بالا در حال تغییر شیوه درمان بیماران در بیمارستان‌های پیشرفته هستند.",
       category: "علم و فناوری",
-      authorImg: "/public/Images/Authors/4.svg",
+      authorImg: "/Images/Authors/4.svg",
 
       author: "حسین تقوی",
       views: 11200,
@@ -79,7 +79,7 @@ function PopularPosts() {
       summary:
         "در این گزارش نگاهی داریم به قدرتمندترین و محبوب‌ترین گوشی‌های هوشمند معرفی‌شده در سال جاری.",
       category: "دیجیتال",
-      authorImg: "/public/Images/Authors/2.svg",
+      authorImg: "/Images/Authors/2.svg",
 
       author: "سارا کریمی",
       views: 21340,

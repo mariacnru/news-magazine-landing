@@ -10,7 +10,9 @@ function Menue({ menueFlag, setMenueFlag }) {
 
   return (
     <div
-      className={`${menueFlag ? "top-0" : "-top-84"} bg-white h-screen w-full pt-3 px-8 absolute right-0 left-0 transition-all duration-300`}
+      className={`bg-white h-screen w-full fixed top-0 right-0 left-0 pt-3 px-8 transition-all duration-500 ease-in-out z-20 ${
+        menueFlag ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
+      }`}
     >
       <div className="flex justify-between items-center">
         <div
@@ -35,12 +37,13 @@ function Menue({ menueFlag, setMenueFlag }) {
               className={`transition-transform duration-300 ${
                 pagesFlag ? "rotate-180" : ""
               }`}
+              size={20}
             />
           </div>
 
           <div
             className={`overflow-hidden transition-all duration-300 ease-in-out ${
-              pagesFlag ? "max-h-40 mt-2" : "max-h-0"
+              pagesFlag ? "max-h-40" : "max-h-0"
             }`}
           >
             <ul className="space-y-2 pr-4 text-sm text-gray-600 font-light">
@@ -72,12 +75,13 @@ function Menue({ menueFlag, setMenueFlag }) {
               className={`transition-transform duration-300 ${
                 categoriesFlag ? "rotate-180" : ""
               }`}
+              size={20}
             />
           </div>
 
           <div
             className={`overflow-hidden transition-all duration-300 ease-in-out ${
-              categoriesFlag ? "max-h-40 mt-2" : "max-h-0"
+              categoriesFlag ? "max-h-40" : "max-h-0"
             }`}
           >
             <ul className="space-y-2 pr-4 text-sm text-gray-600 font-light">

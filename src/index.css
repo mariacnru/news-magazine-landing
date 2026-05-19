@@ -52,3 +52,8 @@ body {
 .popularPostsCard {
   width: 360px !important;
 }
+
+
+.slider-content{
+  width: 95% !important;
+}
