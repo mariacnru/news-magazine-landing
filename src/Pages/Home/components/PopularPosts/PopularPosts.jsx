@@ -112,14 +112,14 @@ function PopularPosts() {
   };
 
   return (
-    <div className="my-20">
+    <div className="my-20 mx-4 md:mx-8 lg:mx-25">
       <div className="flex justify-between items-center gap-2">
         <div className="flex items-center gap-2">
           <div className="w-1 h-3 bg-logo-color rounded-full"></div>
           <h2 className="font-MorabbaMedium">پست های محبوب</h2>
         </div>
 
-        <div className="flex gap-2 *:bg-gray-200 *:p-2 *:rounded-md *:cursor-pointer *:hover:bg-gray-200/50 *:transition-colors">
+        <div className="flex gap-2 *:bg-gray-100 sm:*:bg-gray-200 *:p-2 *:rounded-md *:cursor-pointer *:hover:bg-gray-200/50 *:transition-colors">
           <div onClick={handleScrollRight}>
             <BiChevronRight size={20} />
           </div>

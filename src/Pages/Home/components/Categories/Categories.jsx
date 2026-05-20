@@ -6,12 +6,12 @@ import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
 function Categories() {
   const scrollContainerRef = useRef(null);
 
-  const scrollAmount = 150; // مقدار اسکرول به پیکسل
+  const scrollAmount = 150;
 
   const handleScrollLeft = () => {
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollBy({
-        left: -scrollAmount, // منفی برای اسکرول به چپ
+        left: -scrollAmount,
         behavior: "smooth",
       });
     }
@@ -20,35 +20,41 @@ function Categories() {
   const handleScrollRight = () => {
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollBy({
-        left: scrollAmount, // مثبت برای اسکرول به راست
+        left: scrollAmount,
         behavior: "smooth",
       });
     }
   };
 
   return (
-    <div className="relative lg:inline hidden font-MorabbaMedium">
-      <div
-        ref={scrollContainerRef} // ref رو اینجا اضافه کردیم
-        className="categories bg-stone-100 py-2 px-10 rounded-md flex gap-5 mt-5 overflow-x-scroll scrollbar-hide" // scrollbar-hide رو برای مخفی کردن اسکرول‌بار اضافه کردم (نیاز به نصب پکیج scrollbar-hide یا تنظیمات CSS داره)
-      >
-        {categories.map((category) => (
-          <CategoryCard key={category.id} {...category} />
-        ))}
-      </div>
+    <div className="lg:inline hidden font-MorabbaMedium w-full">
+      <div className="relative mx-4 md:mx-8 lg:mx-25">
+        {/* کانتینر اسکرول‌شونده */}
+        <div
+          ref={scrollContainerRef}
+          className="categories bg-stone-200 py-2 px-10 rounded-md flex gap-5 mt-5 overflow-x-scroll scrollbar-hide"
+        >
+          {categories.map((category) => (
+            <CategoryCard key={category.id} {...category} />
+          ))}
+        </div>
 
-      <div
-        onClick={handleScrollLeft}
-        className="bg-stone-100 w-fit p-2 rounded-md absolute top-0 left-0 h-full flex justify-center items-center cursor-pointer z-10" // cursor-pointer و z-10 برای ظاهر بهتر
-      >
-        <BiChevronLeft size={20} />
-      </div>
+        {/* دکمه‌های ناوبری - الان داخل relative قرار دارند */}
+        <div className="flex justify-between items-center absolute top-0 inset-x-0 h-full pointer-events-none">
+          <div
+            onClick={handleScrollRight}
+            className="bg-stone-100 w-fit h-full p-2 rounded-md flex justify-center items-center cursor-pointer z-10 pointer-events-auto hover:bg-stone-300 transition-colors"
+          >
+            <BiChevronRight size={24} />
+          </div>
 
-      <div
-        onClick={handleScrollRight}
-        className="bg-stone-100 w-fit p-2 rounded-md absolute top-0 right-0 h-full flex justify-center items-center cursor-pointer z-10" // cursor-pointer و z-10 برای ظاهر بهتر
-      >
-        <BiChevronRight size={20} />
+          <div
+            onClick={handleScrollLeft}
+            className="bg-stone-100 w-fit h-full p-2 rounded-md flex justify-center items-center cursor-pointer z-10 pointer-events-auto hover:bg-stone-300 transition-colors"
+          >
+            <BiChevronLeft size={24} />
+          </div>
+        </div>
       </div>
     </div>
   );

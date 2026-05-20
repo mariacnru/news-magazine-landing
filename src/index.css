@@ -38,7 +38,22 @@
 }
 
 body {
+  user-select: none;
   @apply font-Dana bg-white md:bg-stone-100 lg:bg-stone-100;
+}
+
+body::-webkit-scrollbar {
+  background-color: white;
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fc4308;
+  border-radius: 1rem;
+}
+
+.container {
+  @apply mx-4 md:mx-8 lg:mx-15;
 }
 
 .categories::-webkit-scrollbar {
@@ -46,6 +61,10 @@ body {
 }
 
 .popularPosts::-webkit-scrollbar {
+  height: 0;
+}
+
+.newPosts::-webkit-scrollbar {
   height: 0;
 }
 

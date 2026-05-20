@@ -21,7 +21,7 @@ function Hero() {
   ];
 
   return (
-    <div className="flex justify-center gap-2 mt-5">
+    <div className="flex justify-center gap-2 mt-5 mx-4 md:mx-8 lg:mx-25">
       <div className="hidden lg:flex gap-2">
         {data.map((item) => (
           <Card key={item.id} {...item} />

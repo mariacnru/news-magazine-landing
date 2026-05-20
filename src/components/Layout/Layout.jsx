@@ -7,7 +7,7 @@ function Layuot() {
     <div>
       <section>
         <Navbar />
-        <main className="mx-4 md:mx-8 lg:mx-15">
+        <main>
           <Outlet />
         </main>
       </section>
