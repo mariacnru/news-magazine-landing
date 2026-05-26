@@ -72,7 +72,7 @@ function Slider() {
   const currentItem = data[currentIndex];
 
   return (
-    <div className="relative overflow-hidden w-[90dvw] lg:w-134 lg:h-81.5 shrink-0 lg:shrink">
+    <div className="relative overflow-hidden w-[94dvw] lg:w-134 lg:h-81.5 shrink-0 lg:shrink">
       {/* buttons */}
       <div className="absolute top-1/2 left-0 right-0 -translate-y-1/2 flex justify-between items-center px-2 z-10">
         <div

@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import { RiBookmarkLine } from "react-icons/ri";
 
 function Slider({ data, ref, setScrollAmount }) {
   const divRef = useRef(null);
@@ -39,11 +40,17 @@ function Slider({ data, ref, setScrollAmount }) {
               {post.description}
             </p>
 
-            <div className="flex gap-2 bg-gray-100 p-3 rounded-xl">
-              <img src={post.authorImg} alt="" className="rounded-xl" />
-              <div className="flex flex-col justify-between text-xs">
-                <span className="">{post.author}</span>
-                <span className="">{post.date}</span>
+            <div className="flex justify-between items-center bg-gray-100 p-3 rounded-xl">
+              <div className="flex gap-2">
+                <img src={post.authorImg} alt="" className="rounded-xl" />
+                <div className="flex flex-col justify-between text-xs">
+                  <span className="">{post.author}</span>
+                  <span className="">{post.date}</span>
+                </div>
+              </div>
+
+              <div className="text-gray-500">
+                <RiBookmarkLine size={20} />
               </div>
             </div>
           </div>

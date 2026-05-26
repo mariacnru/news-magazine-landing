@@ -2,8 +2,8 @@ import React, { useRef } from "react";
 import Card from "./components/Card";
 import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
 
-function PopularPosts() {
-  const popularPosts = [
+function TrendyPosts() {
+  const trendyPosts = [
     {
       id: 1,
       title: "افزایش قیمت جهانی نفت و تاثیر آن بر اقتصاد",
@@ -16,7 +16,7 @@ function PopularPosts() {
       views: 9850,
       comments: 64,
       date: "5 اکتبر 2022",
-      image: "/Images/Papularposts/1.png",
+      image: "/Images/TrendyPosts/1.svg",
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ function PopularPosts() {
       views: 18730,
       comments: 142,
       date: "22 سپتامبر 2022",
-      image: "/Images/Papularposts/2.png",
+      image: "/Images/TrendyPosts/2.svg",
     },
     {
       id: 3,
@@ -43,7 +43,7 @@ function PopularPosts() {
       views: 9850,
       comments: 64,
       date: "5 اکتبر 2022",
-      image: "/Images/Papularposts/3.png",
+      image: "/Images/TrendyPosts/3.svg",
     },
     {
       id: 4,
@@ -57,7 +57,7 @@ function PopularPosts() {
       views: 21340,
       comments: 198,
       date: "12 نوامبر 2022",
-      image: "/Images/Papularposts/4.png",
+      image: "/Images/TrendyPosts/4.svg",
     },
     {
       id: 5,
@@ -71,7 +71,7 @@ function PopularPosts() {
       views: 11200,
       comments: 73,
       date: "5 اکتبر 2022",
-      image: "/Images/Papularposts/1.png",
+      image: "/Images/TrendyPosts/1.svg",
     },
     {
       id: 6,
@@ -85,7 +85,7 @@ function PopularPosts() {
       views: 21340,
       comments: 198,
       date: "12 نوامبر 2022",
-      image: "/Images/Papularposts/2.png",
+      image: "/Images/TrendyPosts/2.svg",
     },
   ];
 
@@ -116,7 +116,7 @@ function PopularPosts() {
       <div className="flex justify-between items-center gap-2">
         <div className="flex items-center gap-2">
           <div className="w-1 h-3 bg-logo-color rounded-full"></div>
-          <h2 className="font-MorabbaMedium">پست های محبوب</h2>
+          <h2 className="font-MorabbaMedium">پست های ترند</h2>
         </div>
 
         <div className="flex gap-2 *:bg-gray-100 sm:*:bg-gray-200 *:p-2 *:rounded-md *:cursor-pointer *:hover:bg-gray-200/50 *:transition-colors">
@@ -135,7 +135,7 @@ function PopularPosts() {
         ref={scrollContainerRef}
         className="popularPosts flex justify-between gap-5 overflow-x-scroll mt-10 p-3"
       >
-        {popularPosts.map((post) => (
+        {trendyPosts.map((post) => (
           <Card key={post.id} {...post} />
         ))}
       </div>
@@ -143,4 +143,4 @@ function PopularPosts() {
   );
 }
 
-export default PopularPosts;
+export default TrendyPosts;

@@ -1,6 +1,7 @@
 import React from "react";
-import { Outlet } from "react-router";
+import { Outlet, ScrollRestoration } from "react-router";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 function Layuot() {
   return (
@@ -9,7 +10,9 @@ function Layuot() {
         <Navbar />
         <main>
           <Outlet />
+          <ScrollRestoration />
         </main>
+        <Footer />
       </section>
     </div>
   );

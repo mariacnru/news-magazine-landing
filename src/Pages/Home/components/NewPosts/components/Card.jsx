@@ -1,4 +1,5 @@
 import React from "react";
+import { RiBookmarkLine } from "react-icons/ri";
 
 function Card({ title, description, newsImg, authorImg, author, date }) {
   return (
@@ -10,11 +11,17 @@ function Card({ title, description, newsImg, authorImg, author, date }) {
         <h3 className="text-sm font-DanaMedium">{title}</h3>
         <p className="line-clamp-2 text-xs text-gray-500">{description}</p>
 
-        <div className="flex gap-2 bg-gray-100 p-3 rounded-xl">
-          <img src={authorImg} alt="" className="rounded-xl" />
-          <div className="flex flex-col justify-between text-xs">
-            <span className="">{author}</span>
-            <span className="">{date}</span>
+        <div className="flex justify-between items-center bg-gray-100 p-3 rounded-xl">
+          <div className="flex gap-2">
+            <img src={authorImg} alt="" className="rounded-xl" />
+            <div className="flex flex-col justify-between text-xs">
+              <span className="">{author}</span>
+              <span className="">{date}</span>
+            </div>
+          </div>
+
+          <div className="text-gray-500">
+            <RiBookmarkLine size={20} />
           </div>
         </div>
       </div>

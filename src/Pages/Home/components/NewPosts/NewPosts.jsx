@@ -28,7 +28,7 @@ function NewPosts() {
   };
 
   return (
-    <div className="px-4 md:px-8 lg:px-25 bg-white py-5">
+    <div className="newPosts px-4 md:px-8 lg:px-25 bg-gray-100 md:bg-white lg:bg-gray-100 py-5 relative overflow-hidden">
       <div className="flex justify-between items-center gap-2">
         <div className="flex items-center gap-2">
           <div className="w-1 h-3 bg-logo-color rounded-full"></div>
@@ -41,14 +41,22 @@ function NewPosts() {
         </div>
 
         <div className="sm:hidden flex gap-5">
-          <div onClick={prevItem} className="bg-gray-100 p-2 rounded-md">
+          <div
+            onClick={prevItem}
+            className="bg-white sm:bg-gray-100 p-2 rounded-md"
+          >
             <BiChevronRight size={20} />
           </div>
-          <div onClick={nextItem} className="bg-gray-100 p-2 rounded-md">
+          <div
+            onClick={nextItem}
+            className="bg-white sm:bg-gray-100 p-2 rounded-md"
+          >
             <BiChevronLeft size={20} />
           </div>
         </div>
       </div>
+
+      <div className="sm:hidden bg-gray-100 w-2xs h-full absolute -left-50 blur-xl"></div>
 
       <div className="hidden sm:grid grid-cols-1 lg:grid-cols-2 gap-5 my-10">
         {data.map((post) => (

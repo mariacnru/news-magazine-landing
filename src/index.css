@@ -39,7 +39,7 @@
 
 body {
   user-select: none;
-  @apply font-Dana bg-white md:bg-stone-100 lg:bg-stone-100;
+  @apply font-Dana bg-white md:bg-stone-100 lg:bg-white;
 }
 
 body::-webkit-scrollbar {

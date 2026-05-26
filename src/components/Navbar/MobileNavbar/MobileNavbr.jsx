@@ -6,7 +6,7 @@ function MobileNavbr() {
   const [menueFlag, setMenueFlag] = useState(false);
 
   return (
-    <div className="block md:hidden mx-2 mt-5">
+    <div className="block md:hidden mx-4 mt-5">
       <Top setMenueFlag={setMenueFlag} />
       <Menue menueFlag={menueFlag} setMenueFlag={setMenueFlag} />
     </div>
