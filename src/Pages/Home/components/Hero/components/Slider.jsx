@@ -11,35 +11,35 @@ function Slider() {
       title: "هوش مصنوعی",
       descreption:
         "هوش مصنوعی یکی از مهم‌ترین فناوری‌های روز دنیاست که در تحلیل داده، پردازش زبان، خودروهای هوشمند و سیستم‌های خودکار کاربرد زیادی دارد.",
-      img: "/Images/Hero/system.png",
+      img: "/Images/Hero/system.webp",
     },
     {
       id: 2,
       title: "خودروهای برقی",
       descreption:
         "خودروهای برقی با استفاده از باتری به جای سوخت‌های فسیلی کار می‌کنند و به دلیل کاهش آلودگی و هزینه نگهداری، محبوبیت زیادی پیدا کرده‌اند.",
-      img: "/Images/Papularposts/1.png",
+      img: "/Images/Papularposts/1.webp",
     },
     {
       id: 3,
       title: "اینترنت اشیا",
       descreption:
         "اینترنت اشیا به اتصال دستگاه‌های مختلف به اینترنت گفته می‌شود تا بتوانند داده‌ها را ارسال و دریافت کرده و به‌صورت هوشمند عمل کنند.",
-      img: "/Images/Papularposts/2.png",
+      img: "/Images/Papularposts/2.webp",
     },
     {
       id: 5,
       title: "ماشین‌های خودران",
       descreption:
         "ماشین‌های خودران با کمک سنسورها، دوربین‌ها و الگوریتم‌های پیشرفته می‌توانند بدون نیاز به راننده مسیر را تشخیص داده و حرکت کنند.",
-      img: "/Images/Papularposts/3.png",
+      img: "/Images/Papularposts/3.webp",
     },
     {
       id: 4,
       title: "رباتیک",
       descreption:
         "رباتیک ترکیبی از مهندسی، برنامه‌نویسی و هوش مصنوعی است که برای ساخت ماشین‌ها و ربات‌های هوشمند در صنعت و زندگی روزمره استفاده می‌شود.",
-      img: "/Images/Papularposts/4.png",
+      img: "/Images/Papularposts/4.webp",
     },
   ];
 

@@ -1,30 +1,12 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
+import categories from "../../../../Data/Categories";
 import CategoryCard from "./components/CategoryCard";
 import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
 
 function Categories() {
   const scrollContainerRef = useRef(null);
-  const [categories, setCategories] = useState([]);
 
   const scrollAmount = 150;
-
-  useEffect(() => {
-    const getCategories = async () => {
-      try {
-        const res = await fetch(
-          "https://news-magazine-27e02-default-rtdb.firebaseio.com/categories.json",
-        );
-
-        const data = await res.json();
-
-        setCategories(Object.values(data));
-      } catch (error) {
-        console.log(error);
-      }
-    };
-
-    getCategories();
-  }, []);
 
   const handleScrollLeft = () => {
     if (scrollContainerRef.current) {
@@ -48,14 +30,14 @@ function Categories() {
     <div className="lg:inline hidden font-MorabbaMedium w-full">
       <div className="relative mx-4 md:mx-8 lg:mx-25">
         {/* کانتینر اسکرول‌شونده */}
-        {categories && <div
+        <div
           ref={scrollContainerRef}
           className="categories bg-linear-90 from-purple-300 to-sky-300 py-2 px-10 rounded-md flex gap-5 mt-5 overflow-x-scroll scrollbar-hide"
         >
           {categories.map((category, id) => (
             <CategoryCard key={id} {...category} />
           ))}
-        </div>}
+        </div>
 
         {/* دکمه‌های ناوبری - الان داخل relative قرار دارند */}
         <div className="flex justify-between items-center absolute top-0 inset-x-0 h-full pointer-events-none">

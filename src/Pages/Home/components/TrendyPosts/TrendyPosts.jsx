@@ -16,7 +16,7 @@ function TrendyPosts() {
       views: 9850,
       comments: 64,
       date: "5 اکتبر 2022",
-      image: "/Images/TrendyPosts/1.svg",
+      image: "/Images/TrendyPosts/1.webp",
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ function TrendyPosts() {
       views: 18730,
       comments: 142,
       date: "22 سپتامبر 2022",
-      image: "/Images/TrendyPosts/2.svg",
+      image: "/Images/TrendyPosts/2.webp",
     },
     {
       id: 3,
@@ -43,7 +43,7 @@ function TrendyPosts() {
       views: 9850,
       comments: 64,
       date: "5 اکتبر 2022",
-      image: "/Images/TrendyPosts/3.svg",
+      image: "/Images/TrendyPosts/3.webp",
     },
     {
       id: 4,
@@ -57,7 +57,7 @@ function TrendyPosts() {
       views: 21340,
       comments: 198,
       date: "12 نوامبر 2022",
-      image: "/Images/TrendyPosts/4.svg",
+      image: "/Images/TrendyPosts/4.webp",
     },
     {
       id: 5,
@@ -71,7 +71,7 @@ function TrendyPosts() {
       views: 11200,
       comments: 73,
       date: "5 اکتبر 2022",
-      image: "/Images/TrendyPosts/1.svg",
+      image: "/Images/TrendyPosts/1.webp",
     },
     {
       id: 6,
@@ -85,7 +85,7 @@ function TrendyPosts() {
       views: 21340,
       comments: 198,
       date: "12 نوامبر 2022",
-      image: "/Images/TrendyPosts/2.svg",
+      image: "/Images/TrendyPosts/2.webp",
     },
   ];
 

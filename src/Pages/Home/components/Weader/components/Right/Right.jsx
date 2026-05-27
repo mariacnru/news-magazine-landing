@@ -3,7 +3,7 @@ import React from "react";
 function Right() {
   return (
     <div className="w-full grid md:grid-cols-2 gap-5">
-      <div className="w-full bg-[linear-gradient(180deg,#fc4508ed,#ffcc00ee),url(/Images/Weader/1.svg)] bg-cover bg-center p-5 rounded-2xl text-white">
+      <div className="w-full bg-[linear-gradient(180deg,#fc4508ed,#ffcc00ee),url(/Images/Weader/1.webp)] bg-cover bg-center p-5 rounded-2xl text-white">
         <div className="flex justify-between items-center">
           <div className="">
             <span className="block font-DanaDemiBold">Ankara</span>
@@ -21,7 +21,7 @@ function Right() {
         </div>
       </div>
 
-      <div className="w-full bg-[linear-gradient(180deg,#007bffee,#00ddffee),url(/Images/Weader/2.svg)] bg-cover bg-center p-5 rounded-2xl text-white">
+      <div className="w-full bg-[linear-gradient(180deg,#007bffee,#00ddffee),url(/Images/Weader/2.webp)] bg-cover bg-center p-5 rounded-2xl text-white">
         <div className="flex justify-between items-center">
           <div className="">
             <span className="block font-DanaDemiBold">Alaska</span>
@@ -39,7 +39,7 @@ function Right() {
         </div>
       </div>
 
-      <div className="w-full bg-[linear-gradient(180deg,#02ad3bee,#00ff55ee),url(/Images/Weader/3.svg)] bg-cover bg-center p-5 rounded-2xl text-white">
+      <div className="w-full bg-[linear-gradient(180deg,#02ad3bee,#00ff55ee),url(/Images/Weader/3.webp)] bg-cover bg-center p-5 rounded-2xl text-white">
         <div className="flex justify-between items-center">
           <div className="">
             <span className="block font-DanaDemiBold">Berlin</span>
@@ -57,7 +57,7 @@ function Right() {
         </div>
       </div>
 
-      <div className="w-full bg-[linear-gradient(180deg,#7c02adee,#b700ffee),url(/Images/Weader/4.svg)] bg-cover bg-center p-5 rounded-2xl text-white">
+      <div className="w-full bg-[linear-gradient(180deg,#7c02adee,#b700ffee),url(/Images/Weader/4.webp)] bg-cover bg-center p-5 rounded-2xl text-white">
         <div className="flex justify-between items-center">
           <div className="">
             <span className="block font-DanaDemiBold">Paris</span>
