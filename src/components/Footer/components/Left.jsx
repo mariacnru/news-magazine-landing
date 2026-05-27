@@ -33,7 +33,7 @@ function Left() {
 
         <div className="h-full flex flex-col gap-5">
           {comments.map((comment) => (
-            <CommentBox title={comment.name} description={comment.text} />
+            <CommentBox key={comment.id} title={comment.name} description={comment.text} />
           ))}
         </div>
       </div>
