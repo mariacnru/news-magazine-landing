@@ -8,12 +8,7 @@ function List() {
     <ul className="flex h-full items-center gap-7 text-sm font-MorabbaLight">
       {navbar.map((item) => (
         <li key={item.id} className="relative group pb-2">
-          <NavLink
-            to={item.to}
-            className={({ isActive }) =>
-              `${isActive ? "text-logo-color" : "text-black"}`
-            }
-          >
+          <NavLink className="hover:text-logo-color transition-colors">
             <span
               className={`${
                 item.title === "Mega.news"

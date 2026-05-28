@@ -32,7 +32,12 @@ function Slider({ data, ref, setScrollAmount }) {
           className="grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-3 bg-white p-3 rounded-md w-full shadow-md shadow-gray-200 sm:hover:shadow-xl transition-shadow cursor-pointer"
         >
           <div className="flex overflow-hidden rounded-xl">
-            <img src={post.newsImg} alt="" className="rounded-xl- grow" />
+            <img
+              src={post.newsImg}
+              loading="lazy"
+              alt=""
+              className="rounded-xl- grow"
+            />
           </div>
           <div className="space-y-5">
             <h3 className="text-sm font-DanaMedium">{post.title}</h3>
@@ -42,7 +47,12 @@ function Slider({ data, ref, setScrollAmount }) {
 
             <div className="flex justify-between items-center bg-gray-100 p-3 rounded-xl">
               <div className="flex gap-2">
-                <img src={post.authorImg} alt="" className="rounded-xl" />
+                <img
+                  src={post.authorImg}
+                  loading="lazy"
+                  alt=""
+                  className="rounded-xl"
+                />
                 <div className="flex flex-col justify-between text-xs">
                   <span className="">{post.author}</span>
                   <span className="">{post.date}</span>

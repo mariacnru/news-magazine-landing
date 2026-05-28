@@ -8,7 +8,7 @@ function Right() {
       <ul className="grid grid-cols-2 gap-y-2 gap-x-10 p-10">
         <li>
           <Titr titr={"MEGA.news"} />
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-gray-700">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore,
             repellat aperiam? Cumque exercitationem vero nemo repellendus aut
             eaque iusto sit eveniet, adipisci corporis aliquid laudantium qui
@@ -18,13 +18,55 @@ function Right() {
         </li>
         <li>
           <Titr titr={"دسته بندی ها"} />
-          <ul className="text-sm text-gray-500 space-y-2 *:hover:text-logo-color *:transition-colors *:cursor-pointer">
-            <li>فرهنگ</li>
-            <li>مد</li>
-            <li>غذا</li>
-            <li>تکنولوژی</li>
-            <li>ماشین ها</li>
-            <li>موسیقی</li>
+          <ul className="text-sm text-gray-700 space-y-2">
+            <li>
+              <a
+                href="#"
+                className="hover:text-logo-color transition-colors cursor-pointer"
+              >
+                فرهنگ
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="hover:text-logo-color transition-colors cursor-pointer"
+              >
+                مد
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="hover:text-logo-color transition-colors cursor-pointer"
+              >
+                غذا
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="hover:text-logo-color transition-colors cursor-pointer"
+              >
+                تکنولوژی
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="hover:text-logo-color transition-colors cursor-pointer"
+              >
+                ماشین ها
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="hover:text-logo-color transition-colors cursor-pointer"
+              >
+                موسیقی
+              </a>
+            </li>
           </ul>
         </li>
         <li>
@@ -33,11 +75,12 @@ function Right() {
           <div className="flex items-center gap-3">
             <button className="flex justify-center items-center gap-2 text-white bg-linear-30 from-[#ff7563] to-[#f55d9c] py-2 px-4 text-xs rounded-xl">
               <RiInstagramLine />
-              <span className="">instagram</span>
+              <span>instagram</span>
             </button>
 
             <button className="flex justify-center items-center gap-2 text-white bg-linear-30 from-sky-300 to-sky-500 p-2 text-xs rounded-xl">
               <RiTwitterFill size={20} />
+              <span>twitter</span>
             </button>
           </div>
         </li>
@@ -55,11 +98,11 @@ function Right() {
         </li>
       </ul>
 
-      <div className="flex justify-between items-center text-xs bg-gray-200 p-2 rounded-l-md text-gray-500 my-10 ml-10">
-        <div className="">
+      <div className="flex justify-between items-center text-xs bg-gray-200 p-2 rounded-l-md text-gray-700 my-10 ml-10">
+        <div>
           <h3>Privacy Policy | Terms & Condations</h3>
         </div>
-        <div className="">
+        <div>
           <h3>All Copyright (C) 2026 Recived</h3>
         </div>
       </div>

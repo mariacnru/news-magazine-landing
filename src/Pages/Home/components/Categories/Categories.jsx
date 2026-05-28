@@ -32,7 +32,7 @@ function Categories() {
         {/* کانتینر اسکرول‌شونده */}
         <div
           ref={scrollContainerRef}
-          className="categories bg-linear-90 from-purple-300 to-sky-300 py-2 px-10 rounded-md flex gap-5 mt-5 overflow-x-scroll scrollbar-hide"
+          className="categories bg-linear-90 from-purple-500  to-logo-color py-2 px-10 rounded-md flex gap-5 mt-5 overflow-x-scroll scrollbar-hide"
         >
           {categories.map((category, id) => (
             <CategoryCard key={id} {...category} />
