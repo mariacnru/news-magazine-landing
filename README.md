@@ -7,24 +7,24 @@ This project is designed to showcase featured articles, categories, trending new
 
 ## ✨ Features
 
-* Responsive design for mobile, tablet, and desktop
-* Modern and clean UI
-* Hero section with featured news
-* Trending news section
-* News categories
-* Fast and optimized performance
-* SEO-friendly structure
+- Responsive design for mobile, tablet, and desktop
+- Modern and clean UI
+- Hero section with featured news
+- Trending news section
+- News categories
+- Fast and optimized performance
+- SEO-friendly structure
 
 ---
 
 ## 🛠 Technologies Used
 
-* HTML5
-* CSS3 / Tailwind CSS
-* JavaScript
-* React.js
-* React-Router
-* Vite 
+- HTML5
+- CSS3 / Tailwind CSS
+- JavaScript
+- React.js
+- React-Router
+- Vite
 
 ---
 
@@ -56,15 +56,9 @@ npm run dev
 
 ---
 
-## 📌 Future Improvements
+## 📷 Demo
 
-* Dark mode
-* CMS integration
-* Search functionality
-* Authentication system
-* Multi-language support
-
----
+![Preview](/public/images/README.png)
 
 ## 🤝 Contributing
 

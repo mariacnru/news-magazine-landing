@@ -4,7 +4,7 @@ import Right from "./components/Right/Right";
 
 function Weader() {
   return (
-    <div className="flex justify-center items-center bg-gray-100 md:bg-white lg:bg-gray-100 py-15 px-30 my-10">
+    <div className="flex justify-center items-center bg-gray-100 md:bg-white lg:bg-gray-100 py-15 px-5 sm:px-10  md:px-15 lg:px-30 my-10">
       {/* <Left /> */}
       <Right />
     </div>
