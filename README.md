@@ -58,7 +58,7 @@ npm run dev
 
 ## 📷 Demo
 
-![Preview](/public/images/README.webp)
+![Preview](/public/Images/README.webp)
 
 ## 🤝 Contributing
 
