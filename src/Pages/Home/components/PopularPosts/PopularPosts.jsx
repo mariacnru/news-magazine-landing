@@ -129,15 +129,19 @@ function PopularPosts() {
         </div>
       </div>
 
-      <div className="bg-white md:bg-gray-100 lg:bg-white w-2xs h-full absolute -left-50 blur-xl"></div>
-
-      <div
-        ref={scrollContainerRef}
-        className="popularPosts flex justify-between gap-5 overflow-x-scroll mt-10 p-3"
-      >
-        {popularPosts.map((post) => (
-          <Card key={post.id} {...post} />
-        ))}
+      <div className="relative">
+        <div
+          ref={scrollContainerRef}
+          className="popularPosts flex justify-between gap-5 overflow-x-scroll mt-10 p-3
+      before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:w-24
+      before:bg-gradient-to-r before:from-white before:to-transparent
+      before:pointer-events-none
+      lg:before:block before:hidden"
+        >
+          {popularPosts.map((post) => (
+            <Card key={post.id} {...post} />
+          ))}
+        </div>
       </div>
     </div>
   );
