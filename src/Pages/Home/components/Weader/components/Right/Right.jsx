@@ -3,7 +3,7 @@ import React from "react";
 function Right() {
   return (
     <div className="w-full grid md:grid-cols-2 gap-5">
-      <div className="w-full bg-[linear-gradient(180deg,#fc4508ed,#ffcc00ee),url(/Images/Weader/1.webp)] bg-cover bg-center p-5 rounded-2xl text-white">
+      <div className="w-full bg-[linear-gradient(180deg,#fc4508ed,#ffcc00ee),url(/src/assets/Images/Weader/1.webp)] bg-cover bg-center p-5 rounded-2xl text-white">
         <div className="flex justify-between items-center">
           <div className="">
             <span className="block font-DanaDemiBold">Ankara</span>
@@ -17,11 +17,11 @@ function Right() {
         </div>
         <div className="flex justify-center items-center h-30">
           <h3 className="text-5xl">16</h3>
-          <img src="/Images/Weader/WeaderIcons/1.svg" alt="" />
+          <img src="/src/assets/Images/Weader/WeaderIcons/1.svg" alt="" />
         </div>
       </div>
 
-      <div className="w-full bg-[linear-gradient(180deg,#007bffee,#00ddffee),url(/Images/Weader/2.webp)] bg-cover bg-center p-5 rounded-2xl text-white">
+      <div className="w-full bg-[linear-gradient(180deg,#007bffee,#00ddffee),url(/src/assets/Images/Weader/2.webp)] bg-cover bg-center p-5 rounded-2xl text-white">
         <div className="flex justify-between items-center">
           <div className="">
             <span className="block font-DanaDemiBold">Alaska</span>
@@ -35,11 +35,11 @@ function Right() {
         </div>
         <div className="flex justify-center items-center h-30">
           <h3 className="text-5xl">16</h3>
-          <img src="/Images/Weader/WeaderIcons/1.svg" alt="" />
+          <img src="/src/assets/Images/Weader/WeaderIcons/1.svg" alt="" />
         </div>
       </div>
 
-      <div className="w-full bg-[linear-gradient(180deg,#02ad3bee,#00ff55ee),url(/Images/Weader/3.webp)] bg-cover bg-center p-5 rounded-2xl text-white">
+      <div className="w-full bg-[linear-gradient(180deg,#02ad3bee,#00ff55ee),url(/src/assets/Images/Weader/3.webp)] bg-cover bg-center p-5 rounded-2xl text-white">
         <div className="flex justify-between items-center">
           <div className="">
             <span className="block font-DanaDemiBold">Berlin</span>
@@ -53,11 +53,11 @@ function Right() {
         </div>
         <div className="flex justify-center items-center h-30">
           <h3 className="text-5xl">16</h3>
-          <img src="/Images/Weader/WeaderIcons/1.svg" alt="" />
+          <img src="/src/assets/Images/Weader/WeaderIcons/1.svg" alt="" />
         </div>
       </div>
 
-      <div className="w-full bg-[linear-gradient(180deg,#7c02adee,#b700ffee),url(/Images/Weader/4.webp)] bg-cover bg-center p-5 rounded-2xl text-white">
+      <div className="w-full bg-[linear-gradient(180deg,#7c02adee,#b700ffee),url(/src/assets/Images/Weader/4.webp)] bg-cover bg-center p-5 rounded-2xl text-white">
         <div className="flex justify-between items-center">
           <div className="">
             <span className="block font-DanaDemiBold">Paris</span>
@@ -71,7 +71,7 @@ function Right() {
         </div>
         <div className="flex justify-center items-center h-30">
           <h3 className="text-5xl">16</h3>
-          <img src="/Images/Weader/WeaderIcons/1.svg" alt="" />
+          <img src="/src/assets/Images/Weader/WeaderIcons/1.svg" alt="" />
         </div>
       </div>
     </div>
