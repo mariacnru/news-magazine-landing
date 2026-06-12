@@ -1,9 +1,20 @@
 import React from "react";
-import { RouterProvider } from "react-router";
-import Router from "./Router";
+import Home from "./Pages/Home/Home";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
-  return <RouterProvider router={Router}></RouterProvider>;
+  return (
+    <div>
+      <section>
+        <Navbar />
+        <main>
+          <Home />
+        </main>
+        <Footer />
+      </section>
+    </div>
+  );
 }
 
 export default App;

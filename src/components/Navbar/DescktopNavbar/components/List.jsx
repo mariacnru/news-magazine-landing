@@ -8,7 +8,7 @@ function List() {
     <ul className="flex h-full items-center gap-7 text-sm font-MorabbaLight">
       {navbar.map((item) => (
         <li key={item.id} className="relative group pb-2">
-          <NavLink className="hover:text-logo-color transition-colors">
+          <div className="hover:text-logo-color transition-colors">
             <span
               className={`${
                 item.title === "Mega.news"
@@ -28,7 +28,7 @@ function List() {
                 </span>
               )}
             </span>
-          </NavLink>
+          </div>
 
           {item.submenue && (
             <ul className="border-t-4 border-custom-color font-Dana absolute top-full right-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible bg-white shadow-md rounded-b-md min-w-45 p-2 z-50 transition-opacity">
