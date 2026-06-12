@@ -23,7 +23,6 @@ This project is designed to showcase featured articles, categories, trending new
 - CSS3 / Tailwind CSS
 - JavaScript
 - React.js
-- React-Router
 - Vite
 
 ---
