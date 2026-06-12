@@ -112,7 +112,7 @@ function TrendyPosts() {
   };
 
   return (
-    <div className="my-20 mx-4 md:mx-8 lg:mx-25 relative overflow-hidden pl-10">
+    <div className="my-20 mx-4 md:mx-8 lg:mx-25 relative overflow-hidden">
       <div className="flex justify-between items-center gap-2">
         <div className="flex items-center gap-2">
           <div className="w-1 h-3 bg-logo-color rounded-full"></div>
@@ -136,9 +136,9 @@ function TrendyPosts() {
           ref={scrollContainerRef}
           className="popularPosts flex justify-between gap-5 overflow-x-scroll mt-10 p-3
       before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:w-24
-      before:bg-gradient-to-r before:from-white before:to-transparent
+      before:bg-gradient-to-r before:from-gray-100 before:to-transparent
       before:pointer-events-none
-      lg:before:block before:hidden"
+      md:before:block before:hidden"
         >
           {trendyPosts.map((post) => (
             <Card key={post.id} {...post} />

@@ -23,7 +23,10 @@ function Slider({ data, ref, setScrollAmount }) {
   return (
     <div
       ref={ref}
-      className="newPosts my-10 sm:hidden flex gap-5 *:shrink-0 overflow-x-scroll py-5 px-2"
+      className="newPosts my-10 sm:hidden flex gap-5 *:shrink-0 overflow-x-scroll py-5 px-2before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:w-24
+      before:bg-gradient-to-r before:from-white before:to-transparent
+      before:pointer-events-none
+      lg:before:block before:hidden"
     >
       {data.map((post) => (
         <div

@@ -56,19 +56,19 @@ function NewPosts() {
         </div>
       </div>
 
-      <div className="sm:hidden bg-gray-100 w-2xs h-full absolute -left-50 blur-xl"></div>
-
       <div className="hidden sm:grid grid-cols-1 lg:grid-cols-2 gap-5 my-10">
         {data.map((post) => (
           <Card key={post.id} {...post} />
         ))}
       </div>
 
-      <Slider
-        ref={scrollContainerRef}
-        setScrollAmount={setScrollAmount}
-        data={data}
-      />
+      <div className="relative">
+        <Slider
+          ref={scrollContainerRef}
+          setScrollAmount={setScrollAmount}
+          data={data}
+        />
+      </div>
     </div>
   );
 }
