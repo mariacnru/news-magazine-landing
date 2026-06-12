@@ -41,6 +41,8 @@
 
   --color-custom-color: #f81539;
   --color-logo-color: #fc4308;
+
+  --breakpoint-xs: 300px;
 }
 
 body {

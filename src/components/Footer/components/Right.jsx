@@ -5,7 +5,7 @@ import { RiInstagramLine, RiMailFill, RiTwitterFill } from "react-icons/ri";
 function Right() {
   return (
     <div className="bg-gray-100 md:bg-white lg:bg-gray-100 rounded-l-3xl">
-      <ul className="grid grid-cols-2 gap-y-2 gap-x-10 p-10">
+      <ul className="grid xs:grid-cols-1 sm:grid-cols-2 gap-y-2 gap-x-10 p-10">
         <li>
           <Titr titr={"MEGA.news"} />
           <p className="text-sm text-gray-700">
@@ -87,7 +87,7 @@ function Right() {
         <li>
           <Titr titr={"روزنامه"} />
 
-          <label className="text-gray-500 flex justify-between items-center py-3 px-2 bg-white rounded-xl">
+          <label className="text-gray-500 flex justify-between items-center py-3 px-2 bg-white md:bg-gray-100 lg:bg-white rounded-xl">
             <input
               type="text"
               placeholder="ایمیل خود را بنویسید ..."
