@@ -21,7 +21,7 @@ function Top() {
             <span className="text-3xl">29</span>
           </div>
           <img
-            src="/src/assets/Images/Weader/WeaderIcons/1.svg"
+            src="/news-magazine-landing/Images/Weader/WeaderIcons/1.svg"
             alt=""
             className=""
           />

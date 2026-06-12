@@ -10,13 +10,13 @@ function TrendyPosts() {
       summary:
         "با افزایش تنش‌ها در بازار جهانی انرژی، قیمت نفت به بالاترین سطح خود در شش ماه اخیر رسید.",
       category: "اقتصاد",
-      authorImg: "/src/assets/Images/Authors/2.svg",
+      authorImg: "/news-magazine-landing/Images/Authors/2.svg",
 
       author: "رضا محمدی",
       views: 9850,
       comments: 64,
       date: "5 اکتبر 2022",
-      image: "/src/assets/Images/TrendyPosts/1.webp",
+      image: "/news-magazine-landing/Images/TrendyPosts/1.webp",
     },
     {
       id: 2,
@@ -24,12 +24,12 @@ function TrendyPosts() {
       summary:
         "کارشناسان معتقدند پیشرفت سریع هوش مصنوعی می‌تواند ساختار بسیاری از مشاغل را در سال‌های آینده دگرگون کند.",
       category: "تکنولوژی",
-      authorImg: "/src/assets/Images/Authors/1.svg",
+      authorImg: "/news-magazine-landing/Images/Authors/1.svg",
       author: "مریم احمدی",
       views: 18730,
       comments: 142,
       date: "22 سپتامبر 2022",
-      image: "/src/assets/Images/TrendyPosts/2.webp",
+      image: "/news-magazine-landing/Images/TrendyPosts/2.webp",
     },
     {
       id: 3,
@@ -37,13 +37,13 @@ function TrendyPosts() {
       summary:
         "با افزایش تنش‌ها در بازار جهانی انرژی، قیمت نفت به بالاترین سطح خود در شش ماه اخیر رسید.",
       category: "اقتصاد",
-      authorImg: "/src/assets/Images/Authors/2.svg",
+      authorImg: "/news-magazine-landing/Images/Authors/2.svg",
 
       author: "رضا محمدی",
       views: 9850,
       comments: 64,
       date: "5 اکتبر 2022",
-      image: "/src/assets/Images/TrendyPosts/3.webp",
+      image: "/news-magazine-landing/Images/TrendyPosts/3.webp",
     },
     {
       id: 4,
@@ -51,13 +51,13 @@ function TrendyPosts() {
       summary:
         "در این گزارش نگاهی داریم به قدرتمندترین و محبوب‌ترین گوشی‌های هوشمند معرفی‌شده در سال جاری.",
       category: "دیجیتال",
-      authorImg: "/src/assets/Images/Authors/3.svg",
+      authorImg: "/news-magazine-landing/Images/Authors/3.svg",
 
       author: "سارا کریمی",
       views: 21340,
       comments: 198,
       date: "12 نوامبر 2022",
-      image: "/src/assets/Images/TrendyPosts/4.webp",
+      image: "/news-magazine-landing/Images/TrendyPosts/4.webp",
     },
     {
       id: 5,
@@ -65,13 +65,13 @@ function TrendyPosts() {
       summary:
         "ربات‌های جراحی با دقت بالا در حال تغییر شیوه درمان بیماران در بیمارستان‌های پیشرفته هستند.",
       category: "علم و فناوری",
-      authorImg: "/src/assets/Images/Authors/4.svg",
+      authorImg: "/news-magazine-landing/Images/Authors/4.svg",
 
       author: "حسین تقوی",
       views: 11200,
       comments: 73,
       date: "5 اکتبر 2022",
-      image: "/src/assets/Images/TrendyPosts/1.webp",
+      image: "/news-magazine-landing/Images/TrendyPosts/1.webp",
     },
     {
       id: 6,
@@ -79,13 +79,13 @@ function TrendyPosts() {
       summary:
         "در این گزارش نگاهی داریم به قدرتمندترین و محبوب‌ترین گوشی‌های هوشمند معرفی‌شده در سال جاری.",
       category: "دیجیتال",
-      authorImg: "/src/assets/Images/Authors/2.svg",
+      authorImg: "/news-magazine-landing/Images/Authors/2.svg",
 
       author: "سارا کریمی",
       views: 21340,
       comments: 198,
       date: "12 نوامبر 2022",
-      image: "/src/assets/Images/TrendyPosts/2.webp",
+      image: "/news-magazine-landing/Images/TrendyPosts/2.webp",
     },
   ];
 
