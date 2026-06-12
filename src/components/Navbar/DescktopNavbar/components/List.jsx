@@ -1,6 +1,5 @@
 import React from "react";
 import { BiChevronDown } from "react-icons/bi";
-import { NavLink } from "react-router";
 import navbar from "../../../../Data/Navbar";
 
 function List() {
