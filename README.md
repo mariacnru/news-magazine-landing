@@ -57,6 +57,8 @@ npm run dev
 
 ## 📷 Demo
 
+[Live Demo](https://mariacnru.github.io/news-magazine-landing/)
+
 ![Preview](/public/Images/README.webp)
 
 ## 🤝 Contributing
